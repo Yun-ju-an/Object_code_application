@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="50dp"
+            android:layout_marginVertical="20dp"
+            android:layout_marginLeft="30dp"
+            app:srcCompat="@drawable/applogo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:text="앱을 더 활용하시려면 가입하세요"
+            android:textSize="15dp"
+            android:layout_gravity="bottom" />
+
+        <android.widget.Button
+            android:id="@+id/backbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/createidbtn"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:text="뒤로가기"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/TextInputLayoutStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:hint="학번"
+            app:errorEnabled="true"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/TextInputEditTextStyle"
+                android:id="@+id/stdNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/TextInputLayoutStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:hint="이름"
+            app:errorEnabled="true"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/TextInputEditTextStyle"
+                android:id="@+id/myname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/TextInputLayoutStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:hint="휴대폰"
+            app:errorEnabled="true"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/TextInputEditTextStyle"
+                android:id="@+id/pnumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/TextInputLayoutStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:hint="아이디"
+            app:errorEnabled="true"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/TextInputEditTextStyle"
+                android:id="@+id/uid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/TextInputLayoutStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:hint="비밀번호"
+            app:endIconMode="password_toggle"
+            app:errorEnabled="true"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/TextInputEditTextStyle"
+                android:id="@+id/upassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <android.widget.Button
+            android:id="@+id/joinbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:background="@drawable/createidbtn"
+            android:text="가입" />
+
+    </LinearLayout>
+
+</LinearLayout>
