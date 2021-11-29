@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">163951643194-f9bssd5gejk4ajf2ijtn2g0ejmo6i9p1.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">163951643194</string>
+    <string name="google_api_key" translatable="false">AIzaSyAygmKf2BEmWTY2o4v8CyN1dKYLLsA_DiU</string>
+    <string name="google_app_id" translatable="false">1:163951643194:android:33f36fb0dbc414b532c303</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAygmKf2BEmWTY2o4v8CyN1dKYLLsA_DiU</string>
+    <string name="google_storage_bucket" translatable="false">peak-nimbus-332808.appspot.com</string>
+    <string name="project_id" translatable="false">peak-nimbus-332808</string>
+</resources>
