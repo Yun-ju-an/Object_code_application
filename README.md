@@ -11,4 +11,3 @@
 * 사용툴: 안드로이드 스튜디오, Firebase
 * 사용 기능: Google_Map_API, Google_Places_API, TedPermission(테드박님 제작)
 * 최종 업데이트: 2021.11.27
-* 추후: 기능적인 부분개선을 위해 Google이 아닌 Kakao_API로 변경 및 마커들의 클릭기능 추가 및 동일위치 마커 합체 등
